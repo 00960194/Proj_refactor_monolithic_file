@@ -1,6 +1,12 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include "../includes/utils.h"
 
+using namespace std;
+using namespace EC;
 
-#include "///home/edward/cpsc327/Proj_refactor_monolithic_file/includes/utils.h"
+namespace EC {
 
 //sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 //returns nothing
@@ -26,5 +32,10 @@ int getSize(vector<process> &myProcesses){
 int handleMissingData(vector<process> &myProcesses){
 	return NO_DATA_TO_WORK_ON;
 }
+
+}
+//int main() {
+//	return 0;
+//}
 
 

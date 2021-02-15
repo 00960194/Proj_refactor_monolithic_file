@@ -1,8 +1,14 @@
 
+#include <iostream>
+#include <string>
+#include <vector>
+#include "constants.h"
 
 #ifndef UTILS_H_
 #define UTILS_H_
-#include "constants.h"
+
+using namespace std;
+
 namespace EC {
 	//sorts vector inplace based on mySortOrder (inplace means the vector is modified)
 	//returns nothing

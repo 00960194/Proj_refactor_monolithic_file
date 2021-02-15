@@ -8,8 +8,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "///home/edward/cpsc327/Proj_refactor_monolithic_file/includes/constants.h"
-#include "///home/edward/cpsc327/Proj_refactor_monolithic_file/includes/utils.h"
+#include "../includes/constants.h"
+#include "../includes/utils.h"
+#include "../includes/fileio.h"
 
 using namespace std;
 using namespace EC;

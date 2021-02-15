@@ -1,7 +1,12 @@
 
+#include <iostream>
+#include <string>
+#include <vector>
 
 #ifndef CONSTANTS_H_
 #define CONSTANTS_H_
+
+using namespace std;
 
 namespace EC {
     //default files to read and write data

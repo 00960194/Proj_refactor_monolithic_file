@@ -1,7 +1,12 @@
 
 
-#include "///home/edward/cpsc327/Proj_refactor_monolithic_file/includes/fileio.h
-"
+#include "../includes/fileio.h"
+
+
+using namespace std;
+using namespace EC;
+
+namespace EC {
 
 //attempt to open file 'filename' and read in all data
 //returns SUCCESS if all goes well or COULD_NOT_OPEN_FILE
@@ -14,3 +19,10 @@ int loadData(const std::string filename, vector<process> &myProcesses){
 int saveData(const std::string filename, vector<process> &myProcesses){
 	return UNIMPLEMENTED;
 }
+
+
+}
+
+//int main() {
+//	return 0;
+//}
